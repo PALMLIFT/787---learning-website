@@ -1,0 +1,51 @@
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contentBlock {
+    border-radius: 10px;
+    margin-top: 0.5em;
+    background-color: #808080;
+    margin-bottom: 1em;
+}
+
+.title {
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 400%;
+    color: white;
+}
+
+.slogan {
+    font-size: 150%;
+    color: white;
+}
+
+.mainPicture {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.contentText {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+    color: white;
+}
+
+.customFooter {
+    margin: 0 auto;
+    padding-top: 10px;
+    border-top: 1px solid black;
+    border-color: #808080;
+    color: #808080;
+}
+
+body {
+    background-image: url("background.jpg");
+}
