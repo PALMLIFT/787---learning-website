@@ -1,32 +1,62 @@
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+@font-face {
+  font-family: 'boeingFont';
+  src: url('boeing.ttf');
+}
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: repeat;
+}
+
+a {
+    color: darkblue;
+    text-decoration: underline;
 }
 
 .contentBlock {
     border-radius: 10px;
-    margin-top: 0.5em;
-    background-color: #808080;
-    margin-bottom: 1em;
+    margin-top: 1em;
+    background-color: white;
+    margin-bottom: 1.5em;
+    border: 1px solid black;
 }
 
 .title {
-    padding-top: 25px;
+    padding-top: 5px;
     padding-right: 25px;
     padding-left: 25px;
-    font-size: 400%;
-    color: white;
+    font-size: 300%;
+    color: black;
+    font-family: 'boeingFont';
 }
 
 .slogan {
     font-size: 150%;
-    color: white;
+    padding-right: 0.5em;
+    padding-left: 5px;
+    padding-bottom: 0.5em;
+    color: dimgrey;
 }
 
 .mainPicture {
-    width: 80%;
-    border-radius: 10px;
+    width: 90%;
+    border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-bottom: 0px;
+}
+
+figcaption {
+    color: black;
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 115%;
+    padding: 5px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+    border: 1px solid black;
 }
 
 .contentText {
@@ -35,17 +65,39 @@
     width: 60%;
     text-align: left;
     margin: 0 auto;
-    color: white;
+    color: black;
+}
+
+.infoContent {
+    padding-top: 25px;
+    background-color: white;
+}
+
+.engineImage {
+    border-radius: 500px;
+    border: 1px solid black;
+    width: 60%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.showMe {
+    background-color: yellow;
+}
+
+.miniInfo {
+    padding: 15px;
+}
+
+.engineInfo {
+    margin-top: 3em;
+    font-size: 150%;
 }
 
 .customFooter {
     margin: 0 auto;
     padding-top: 10px;
     border-top: 1px solid black;
-    border-color: #808080;
-    color: #808080;
-}
-
-body {
-    background-image: url("background.jpg");
+    border-color: black;
+    color: black;
 }
